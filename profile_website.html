@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baldev MG | Software Engineer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        html { scroll-behavior: smooth; }
+        body { font-family: 'Inter', sans-serif; background-color: #0f172a; color: #f8fafc; }
+        .bento-card { background: rgba(30, 41, 59, 0.7); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 1rem; transition: transform 0.3s ease; }
+        .bento-card:hover { transform: translateY(-5px); border-color: #38bdf8; }
+        .gradient-text { background: linear-gradient(90deg, #38bdf8, #818cf8); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .profile-img { border: 4px solid rgba(56, 189, 248, 0.3); box-shadow: 0 0 20px rgba(56, 189, 248, 0.2); }
+    </style>
+</head>
+<body class="overflow-x-hidden">
+
+    <nav class="fixed w-full z-50 bg-[#0f172a]/95 backdrop-blur-lg border-b border-white/10 px-6 py-4">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
+            <div class="flex flex-col items-center md:items-start">
+                <span class="text-2xl font-bold tracking-tighter">BALDEV<span class="text-sky-400">.MG</span></span>
+                <div class="text-xs md:text-sm text-slate-300 flex flex-wrap justify-center gap-4 mt-2 font-medium">
+                    <span class="flex items-center gap-1">📍 Bengaluru</span>
+                    <span class="flex items-center gap-1">📞 +91 8660510683</span>
+                    <span class="flex items-center gap-1">✉️ mgbaldev@gmail.com</span>
+                </div>
+            </div>
+
+            <div class="flex items-center space-x-4">
+                <a href="https://linkedin.com/in/baldevmg" target="_blank" class="bg-[#0077b5] px-5 py-2.5 rounded-lg text-white text-sm font-bold hover:brightness-110 transition">LinkedIn</a>
+                <a href="https://github.com/baldevmg" target="_blank" class="bg-slate-700 px-5 py-2.5 rounded-lg text-white text-sm font-bold hover:bg-slate-600 transition">GitHub</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="min-h-screen flex flex-col justify-center items-center px-6 pt-40 pb-20 text-center" data-aos="fade-up">
+        <div class="mb-8" data-aos="zoom-in" data-aos-delay="200">
+            <img src="profilepic.jpg" alt="Baldev MG" class="w-40 h-40 md:w-48 md:h-48 rounded-full object-cover profile-img mx-auto">
+        </div>
+        
+        <h1 class="text-5xl md:text-7xl font-extrabold mb-6 leading-tight">
+            Building <span class="gradient-text">Scalable</span> <br> Backend Systems.
+        </h1>
+        
+        <p class="text-slate-300 text-lg md:text-xl max-w-3xl mb-10 leading-relaxed">
+            I am a **Software Engineer** [cite: 2] with over **3 years of experience** [cite: 5] crafting high-performance distributed systems using **Java, Kotlin, and Spring Boot**[cite: 6]. I specialize in optimizing microservices and cloud-native architectures to drive business impact[cite: 6, 20].
+        </p>
+
+        <div class="flex gap-6">
+            <a href="#projects" class="bg-sky-500 text-white px-10 py-4 rounded-full font-bold hover:bg-sky-600 transition shadow-xl shadow-sky-500/20">
+                View My Work
+            </a>
+            <a href="#experience" class="border border-slate-600 px-10 py-4 rounded-full font-bold hover:bg-white/5 transition">
+                Experience
+            </a>
+        </div>
+    </header>
+
+    <section id="about" class="max-w-6xl mx-auto px-6 py-20 grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="bento-card p-8 md:col-span-2" data-aos="fade-right">
+            <h3 class="text-xl font-bold mb-4 text-sky-400">Core Expertise [cite: 8]</h3>
+            <div class="flex flex-wrap gap-3">
+                <span class="bg-slate-800/80 px-4 py-2 rounded-lg text-sm border border-white/5">Java [cite: 9]</span>
+                <span class="bg-slate-800/80 px-4 py-2 rounded-lg text-sm border border-white/5">Kotlin [cite: 9]</span>
+                <span class="bg-slate-800/80 px-4 py-2 rounded-lg text-sm border border-white/5">Spring Boot [cite: 10]</span>
+                <span class="bg-slate-800/80 px-4 py-2 rounded-lg text-sm border border-white/5">Spring Reactive [cite: 10]</span>
+                <span class="bg-slate-800/80 px-4 py-2 rounded-lg text-sm border border-white/5">AWS & Docker [cite: 12]</span>
+                <span class="bg-slate-800/80 px-4 py-2 rounded-lg text-sm border border-white/5">Kafka [cite: 12]</span>
+                <span class="bg-slate-800/80 px-4 py-2 rounded-lg text-sm border border-white/5">MongoDB & MySQL [cite: 11]</span>
+            </div>
+        </div>
+        <div class="bento-card p-8 flex flex-col justify-center text-center" data-aos="fade-left">
+            <span class="text-5xl font-bold text-sky-400">~20%</span>
+            <p class="text-slate-400 text-sm mt-4 font-medium uppercase tracking-wider">Performance Boost [cite: 30]</p>
+            <p class="text-slate-500 text-xs mt-2">Reduction in API response times through query logic optimization[cite: 30].</p>
+        </div>
+    </section>
+
+    <section id="experience" class="max-w-4xl mx-auto px-6 py-20">
+        <h2 class="text-4xl font-bold mb-16 text-center" data-aos="fade-up">Professional Milestones [cite: 16]</h2>
+        <div class="space-y-16">
+            <div class="relative pl-10 border-l-2 border-sky-500" data-aos="fade-up">
+                <div class="absolute w-5 h-5 bg-sky-500 rounded-full -left-[11px] top-0 shadow-lg shadow-sky-500/50"></div>
+                <h3 class="text-2xl font-bold">Software Engineer @ Lowe's India [cite: 17]</h3>
+                <span class="text-sky-400 font-semibold italic text-sm">02/2025 - 01/2026 [cite: 19]</span>
+                <ul class="mt-6 text-slate-300 space-y-3 list-disc list-inside leading-relaxed">
+                    <li>Engineered vendor-facing microservices, enhancing integration reliability[cite: 20].</li>
+                    <li>Delivered platform enhancements contributing to a **40% increase in feature usage**[cite: 21].</li>
+                    <li>Improved engineering efficiency by **25%** through Agile workflow refinement[cite: 22].</li>
+                </ul>
+            </div>
+            
+            <div class="relative pl-10 border-l-2 border-slate-700" data-aos="fade-up">
+                <div class="absolute w-5 h-5 bg-slate-700 rounded-full -left-[11px] top-0"></div>
+                <h3 class="text-2xl font-bold">Backend Engineer @ Aditya Birla (Sonata) [cite: 23]</h3>
+                <span class="text-slate-500 font-semibold italic text-sm">06/2024 - 01/2025 [cite: 49]</span>
+                <p class="mt-6 text-slate-300 leading-relaxed">Refactored backend modules for retail e-commerce platforms, reducing production-level issues by **15%**[cite: 25, 26].</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="bg-slate-900/40 py-24 px-6 border-t border-white/5">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-4xl font-bold mb-16" data-aos="fade-up">Featured Architectures [cite: 32]</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+                <div class="bento-card p-10" data-aos="zoom-in">
+                    <span class="text-sky-400 text-xs font-bold uppercase tracking-widest mb-2 block">Microservices [cite: 33]</span>
+                    <h3 class="text-2xl font-bold mb-4 text-white">Item Grouping & Management [cite: 33]</h3>
+                    <p class="text-slate-400 mb-6 leading-relaxed">Architected a recommendation system to link related items, increasing customer conversion rates[cite: 34].</p>
+                    <div class="text-xs font-mono text-emerald-400 flex items-center gap-2">
+                        <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                        Kotlin • Spring Reactive • MongoDB [cite: 33]
+                    </div>
+                </div>
+                
+                <div class="bento-card p-10" data-aos="zoom-in" data-aos-delay="100">
+                    <span class="text-sky-400 text-xs font-bold uppercase tracking-widest mb-2 block">FinTech [cite: 37]</span>
+                    <h3 class="text-2xl font-bold mb-4 text-white">Portfolio Management Tool [cite: 37]</h3>
+                    <p class="text-slate-400 mb-6 leading-relaxed">Designed an enterprise tool for unified views of budgets and financial summaries[cite: 39].</p>
+                    <div class="text-xs font-mono text-sky-400 flex items-center gap-2">
+                        <span class="w-2 h-2 rounded-full bg-sky-400 animate-pulse"></span>
+                        Java • Spring Boot • MySQL [cite: 38]
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-12 text-center text-slate-500 text-sm border-t border-white/5 bg-[#0f172a]">
+        <p class="mb-2">Baldev MG | +91 8660510683 | mgbaldev@gmail.com [cite: 1, 3]</p>
+        <p>&copy; 2026 Developed with Clean Code Architecture[cite: 7].</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({ duration: 1000, once: true });
+    </script>
+</body>
+</html>
